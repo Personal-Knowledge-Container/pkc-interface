@@ -29,12 +29,17 @@
 		}
 	},
 	"Hooks": {
-		"BeforePageDisplay": "BoilerPlateHooks"
+		"ParserFirstCallInit": "BoilerPlateHooks",
+		"BeforePageDisplay": "BoilerPlateHooks",
+		"ArticlePurge": "BoilerPlateHooks"		
 	},
 	"MessagesDirs": {
 		"BoilerPlate": [
 			"i18n"
 		]
+	},
+	"ExtensionMessagesFiles": {
+		"BoilerPlateMagic": "PKC.i18n.magic.php"
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "resources",
